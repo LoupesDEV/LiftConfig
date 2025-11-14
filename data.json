@@ -1,0 +1,346 @@
+{
+    "BUNDLES": [
+        {
+            "name": "MOZA R3",
+            "price": 329.0,
+            "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/3.R3pc_4161db8e-0da5-406d-8cd1-af0227d22c1b.webp?v=1752808529&width=600",
+            "linkUrl": "https://eu.mozaracing.com/products/r3-racing-bundle-pc"
+        },
+        {
+            "name": "CSL DD R2R (5Nm)",
+            "price": 399.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FBundles%2Fready2race%2Fcsl-dd-qr2-ready2race-bundle-for-pc-5-nm%2Fcsl-dd-qr2-ready2race-bundle-for-pc-5-nm-01.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_5nm_eu/csl-dd-qr2-ready2race-bundle-pc-5-nm-eu"
+        },
+        {
+            "name": "CSL DD R2R BMW (5Nm)",
+            "price": 449.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FBundles%2Fready2race%2FR2R_CSL_DD_QR2_BMW_PC_5NM%2FR2R_CSL_DD_QR2_BMW_PC_5NM-01B.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_bmw_5nm_eu/csl-dd-qr2-ready2race-bmw-bundle-for-pc-5-nm-eu"
+        },
+        {
+            "name": "MOZA R5",
+            "price": 479.0,
+            "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/R5_a8139d29-a749-48e8-bb36-cc5f58e74b62.png?v=1752746509&width=1000",
+            "linkUrl": "https://eu.mozaracing.com/products/r5-racing-bundle"
+        },
+        {
+            "name": "CSL DD R2R GT3 (5Nm)",
+            "price": 479.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FBundles%2Fready2race%2FR2R_CSL_DD_QR2_GT3_5NM%2FR2R_CSL_DD_QR2_GT3_5NM-01B.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_gt3_5nm_eu/csl-dd-qr2-ready2race-gt3-bundle-for-pc-5-nm-au-1"
+        },
+        {
+            "name": "CSL DD R2R WRC (5Nm)",
+            "price": 499.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FBundles%2Fready2race%2FR2R_CSL_DD_QR2_WRC_5NM%2FR2R_CSL_DD_QR2_WRC_5NM-01B.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_wrc_5nm_eu/csl-dd-qr2-ready2race-wrc-bundle-5nm-eu"
+        },
+        {
+            "name": "CSL DD R2R (8Nm)",
+            "price": 499.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FBundles%2Fready2race%2Fcsl-dd-qr2-ready2race-bundle-for-pc-8-nm%2Fcsl-dd-qr2-ready2race-bundle-for-pc-8-nm-01.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_8nm_eu/csl-dd-qr2-ready2race-bundle-pc-8-nm-eu"
+        },
+        {
+            "name": "CSL DD R2R F1 (5Nm)",
+            "price": 519.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FBundles%2Fready2race%2FR2R_CSL_DD_QR2_F1E_5NM%2FR2R_CSL_DD_QR2_F1E_5NM-01.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_f1e_5nm_eu/csl-dd-qr2-ready2race-f1-esports-bundle-eu"
+        },
+        {
+            "name": "CSL DD R2R BMW (8Nm)",
+            "price": 549.99,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FBundles%2Fready2race%2FR2R_CSL_DD_QR2_BMW_PC_8NM%2FR2R_CSL_DD_QR2_BMW_PC_8NM-01B.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_bmw_8nm_eu/csl-dd-qr2-ready2race-bmw-bundle-for-pc-8-nm-eu"
+        },
+        {
+            "name": "ASETEK RACING BUNDLE",
+            "price": 684.71,
+            "imageUrl": "https://www.asetek.com/simsports/wp-content/uploads/2025/08/Initium_Sim-Racing-Bundle-I__Far_40-099-0099003-600x600.png",
+            "linkUrl": "https://www.asetek.com/simsports/product/racing-bundle-i-eu/"
+        }
+    ],
+    "COCKPITS": [
+        {
+            "name": "OPLITE WHEEL STAND GT PRO",
+            "price": 159.9,
+            "imageUrl": "https://oplitegames.com/wp-content/uploads/OPLITE-Wheel-Stand-GTPro-V2-OP-WS-GTPRO_1-800x800.png",
+            "linkUrl": "https://oplitegames.com/produit/wheel-stand-gt-pro-support-volant-et-pedales/"
+        },
+        {
+            "name": "PLAYSEAT EVOLUTION (w/ Seat)",
+            "price": 299.0,
+            "imageUrl": "https://playseat.com/media/catalog/product/cache/05ed9395b6f36ffdbd421674feeb3f04/p/l/playseat-evolution-actifit-01.webp",
+            "linkUrl": "https://playseat.com/playseatr-evolution-actifittm"
+        },
+        {
+            "name": "PLAYSEAT EVOLUTION PRO (w/ Seat)",
+            "price": 349.0,
+            "imageUrl": "https://playseat.com/media/catalog/product/cache/05ed9395b6f36ffdbd421674feeb3f04/p/l/playseat-evo-pro-actifit-01.webp",
+            "linkUrl": "https://playseat.com/playseatr-evolution-pro-actifittm"
+        },
+        {
+            "name": "OPLITE GT3 SUPERFAST V2 (w/ Seat)",
+            "price": 369.9,
+            "imageUrl": "https://oplitegames.com/wp-content/uploads/OP-GT3_1-800x800.png",
+            "linkUrl": "https://oplitegames.com/produit/gt3-cockpit-simracing-cockpit-de-simulation/"
+        },
+        {
+            "name": "CSL COCKPIT V1.5",
+            "price": 249.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FCockpits%2FCRD-9010009-WW%2FCRD-9010009-WW-01.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/cockpits/crd-9010009-ww/csl-cockpit-v1-5"
+        },
+        {
+            "name": "NLR GTRacer (w/ Seat)",
+            "price": 399.0,
+            "imageUrl": "https://nextlevelracing.com/wp-content/uploads/2023/10/gtracer_web_1-1-1060x663.webp",
+            "linkUrl": "https://nextlevelracing.com/products/gtracer/?lang=fr"
+        },
+        {
+            "name": "GTOMEGA ART",
+            "price": 147.28,
+            "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/Art_Acc_01.webp?v=1751637062&width=1220",
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/art-racing-cockpit?variant=47496627126586"
+        },
+        {
+            "name": "NLR GTRacer 2.0 (w/ Seat)",
+            "price": 449.0,
+            "imageUrl": "https://nextlevelracing.com/wp-content/uploads/2025/01/gtracer_2_web_gallery-1060x795.webp",
+            "linkUrl": "https://nextlevelracing.com/products/gtracer-2/?lang=fr"
+        },
+        {
+            "name": "GTOMEGA PRIME Lite-R",
+            "price": 214.95,
+            "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/Prime_Lite-R_V2_Cockpit_Cove_Acc_01_7f3e8981-6b3d-4806-a62f-d6b32728a9d9.webp?v=1747399547&width=1220",
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/prime-lite-r?variant=49384054587706"
+        },
+        {
+            "name": "TRAKRACER TR40S",
+            "price": 254.15,
+            "imageUrl": "https://trakracer.eu/cdn/shop/files/TR40S_SS-SM2-04-min_658c3be8-b4e5-415a-bc32-7c42244b13df_720x.png?v=1751969735",
+            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr40s-racing-simulator-1"
+        },
+        {
+            "name": "OPLITE GTR S8 Infinity (w/ Seat)",
+            "price": 499.0,
+            "imageUrl": "https://oplitegames.com/wp-content/uploads/Oplite-Cockpit-GTR-S8-INFINITY-OP-GTR-RC-S8-_1-800x800.jpg",
+            "linkUrl": "https://oplitegames.com/produit/cockpit-gtr-s8-infinity/"
+        },
+        {
+            "name": "GTOMEGA TITAN",
+            "price": 254.95,
+            "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/Titan_Acc_01.webp?v=1751637956&width=1220",
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/titan-cockpit"
+        },
+        {
+            "name": "TRAKRACER TR80S",
+            "price": 381.65,
+            "imageUrl": "https://trakracer.eu/cdn/shop/files/TR80S_sf_f03_900x.webp?v=1754008346",
+            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr80s-racing-simulator-2"
+        },
+        {
+            "name": "OPLITE R8 FURY",
+            "price": 649.9,
+            "imageUrl": "https://oplitegames.com/wp-content/uploads/COCKPIT-R8-FURY-BLACK-OP-R8-B_01-800x800.png",
+            "linkUrl": "https://oplitegames.com/produit/cockpit-r8-fury-black/"
+        }
+    ],
+    "SIEGES": [
+        {
+            "name": "CSL COCKPIT SEAT",
+            "price": 129.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FAccessories%2FCockpit-Accessories%2FCSL_C_SEAT%2FCSL_C_SEAT-01.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/cockpits/csl_c_seat/csl-cockpit-seat"
+        },
+        {
+            "name": "GTOMEGA INERTIA BUCKET",
+            "price": 258.57,
+            "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/Inertia_Black_LowerAngle.jpg?v=1755595851&width=1220",
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/inertia-bucket-seat"
+        },
+        {
+            "name": "GTOMEGA RS12 SIM",
+            "price": 234.73,
+            "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/RS12_Black_LowerAngle.png?v=1749041846&width=1220",
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/rs12-simulator-seat"
+        },
+        {
+            "name": "TRAKRACER RECLINER",
+            "price": 220.15,
+            "imageUrl": "https://trakracer.eu/cdn/shop/files/SA-08_BUNDLE_02_720x.png?v=1738811299",
+            "linkUrl": "https://trakracer.eu/products/recliner-seat-2?variant=41410326692034"
+        }
+    ],
+    "ACCESSOIRES": [
+        {
+            "name": "SWITCH USB HUB 7 PORTS USB 3",
+            "price": 14.99,
+            "exclusive": "NON",
+            "imageUrl": "https://m.media-amazon.com/images/I/61ECAu3h5SL._AC_SX679_.jpg",
+            "linkUrl": "https://amzn.eu/d/aGGftHE"
+        },
+        {
+            "name": "SIMSHIELD WHEEL COVER (ROUND)",
+            "price": 23.95,
+            "exclusive": "NON",
+            "imageUrl": "https://www.sim-shield.com/cdn/shop/files/1_8e27ac4d-f62a-4120-a21b-cfa576818b7e.png?v=1743732654&width=600",
+            "linkUrl": "https://www.sim-shield.com/products/simshield-v2-round-edition"
+        },
+        {
+            "name": "SIMSHIELD WHEEL COVER (RECTANGLE)",
+            "price": 23.95,
+            "exclusive": "NON",
+            "imageUrl": "https://www.sim-shield.com/cdn/shop/files/1_b39eb2d3-1c2a-4272-85d7-12ea1c911623.png?v=1743731405&width=600",
+            "linkUrl": "https://www.sim-shield.com/products/simshield-formula"
+        },
+        {
+            "name": "SR-P LITE BRAKE PERFORMANCE",
+            "price": 35.0,
+            "exclusive": "OUI",
+            "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/SR-P-Lite-Brake-Pedal-Performance-Kit-3-png-update_5339feb7-3277-4c2b-95a4-86b75b1f90d6.webp?v=1752746506&width=600",
+            "linkUrl": "https://eu.mozaracing.com/products/srp-lite-kit"
+        },
+        {
+            "name": "SPARCO K-ATTACK GLOVES",
+            "price": 39.0,
+            "exclusive": "NON",
+            "imageUrl": "https://www.sparco-official.com/media/catalog/product/b/k/bkg0004b0_k10_01_1_8.jpg?auto=webp&format=pjpg&width=640&fit=cover?auto=webp&format=pjpg&width=1600&height=2000&fit=cover",
+            "linkUrl": "https://www.sparco-official.com/fr/k-attack.html"
+        },
+        {
+            "name": "TRAKRACER SIMRIG FLOOR MAT",
+            "price": 41.65,
+            "exclusive": "NON",
+            "imageUrl": "https://trakracer.eu/cdn/shop/products/03_75117847-ca8f-410d-8a21-c084f10b37e5_900x.png?v=1644889674",
+            "linkUrl": "https://trakracer.eu/products/premium-neoprene-sim-rig-floor-mat?variant=41410385739970"
+        },
+        {
+            "name": "TRAKRACER SEAT HARNESS",
+            "price": 41.65,
+            "exclusive": "OUI",
+            "imageUrl": "https://trakracer.eu/cdn/shop/products/TR-SBELT-B_2__shopify_720x.png?v=1640239463",
+            "linkUrl": "https://trakracer.eu/collections/seats-seat-add-ons/products/trak-racer-seat-harness"
+        },
+        {
+            "name": "MOZA SR-P CLUTCH PEDAL",
+            "price": 45.9,
+            "exclusive": "OUI",
+            "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/SR-P_Lite_Clutch_Pedal.webp?v=1751281057&width=600",
+            "linkUrl": "https://eu.mozaracing.com/products/srp-lite-clutch?variant=50707892470054"
+        },
+        {
+            "name": "TRAKRACER KEYBOARD MOUSE V2 TRAY",
+            "price": 58.65,
+            "exclusive": "OUI",
+            "imageUrl": "https://trakracer.eu/cdn/shop/files/TR80-KBMMS_02-min_3f04b862-1c54-47e2-9b17-cff353d3cdf7_900x.png?v=1750382258",
+            "linkUrl": "https://trakracer.eu/products/aluminium-profile-adjustable-keyboard-tray-upgrade-kit-1?variant=41410499281090"
+        },
+        {
+            "name": "FANATEC CLUTCH PEDAL",
+            "price": 59.95,
+            "exclusive": "OUI",
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FAccessories%2FPedal-Accessories%2FCSL_P_CK%2FCSL_P_CK-01.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-accessories/csl_p_ck/csl-pedal-clutch-kit"
+        },
+        {
+            "name": "BaotyJie SHIFTER",
+            "price": 60.59,
+            "exclusive": "NON",
+            "imageUrl": "https://m.media-amazon.com/images/I/51wHNQA1YIL._AC_SX679_.jpg",
+            "linkUrl": "https://amzn.eu/d/2ZA41ox"
+        },
+        {
+            "name": "Easyhomie HANDBRAKE",
+            "price": 69.99,
+            "exclusive": "NON",
+            "imageUrl": "https://m.media-amazon.com/images/I/61SD1rG-M-L._AC_SX522_.jpg",
+            "linkUrl": "https://amzn.eu/d/blouI3H"
+        },
+        {
+            "name": "TRAKRACER TR GEN 2 SHIFTER MOUNT",
+            "price": 72.25,
+            "exclusive": "OUI",
+            "imageUrl": "https://trakracer.eu/cdn/shop/files/noshifter_black_900x.png?v=1704214153",
+            "linkUrl": "https://trakracer.eu/products/tr-gen-2-shifter-mount-and-side-chassis-support-with-support-plate-for-tr120s?variant=47624824095065"
+        },
+        {
+            "name": "FANATEC LOAD CELL KIT",
+            "price": 79.95,
+            "exclusive": "OUI",
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FAccessories%2FPedal-Accessories%2FCSL_P_LCK%2FCSL_P_LCK-01.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-accessories/csl_p_lck/csl-pedals-load-cell-kit"
+        },
+        {
+            "name": "TRAKRACER TOP MONITOR MOUNT",
+            "price": 84.15,
+            "exclusive": "OUI",
+            "imageUrl": "https://trakracer.eu/cdn/shop/products/TR80-4M4-BLK.1.1_ce6c948a-1929-4452-8a65-eee7e4560aa4_900x.png?v=1700822836",
+            "linkUrl": "https://trakracer.eu/products/aluminium-quad-dual-overhead-monitor-stand-up-to-36-display?variant=41645424672962"
+        },
+        {
+            "name": "FANATEC BOOST KIT 180 (8Nm)",
+            "price": 99.95,
+            "exclusive": "OUI",
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FAccessories%2FWheel-Base-Accessories%2FBK180_NA%2Fbk180_us-02.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-accessories/bk180_eu/boost-kit-180-8nm-eu"
+        },
+        {
+            "name": "SHH SHIFTER THORN",
+            "price": 109.0,
+            "exclusive": "NON",
+            "imageUrl": "https://www.shiftershh.com/47-large_default/shh-shifter-thorn.jpg",
+            "linkUrl": "https://www.shiftershh.com/fr/accueil/1-4-shh-shifter-thorn.html#/1-couleur-noir/5-ancrage-cockpits_standard/9-grille-7r_tipo_2"
+        },
+        {
+            "name": "MOZA HPB HANDBRAKE",
+            "price": 109.0,
+            "exclusive": "NON",
+            "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/MOZA-HBP-Handbrake-1.webp?v=1751281058&width=600",
+            "linkUrl": "https://eu.mozaracing.com/products/hbp-handbrake?variant=50707893027110"
+        },
+        {
+            "name": "TRAKRACER SINGLE MONITOR STAND",
+            "price": 109.65,
+            "exclusive": "OUI",
+            "imageUrl": "https://trakracer.eu/cdn/shop/files/MS-CM-SML2_e9927cf5-8256-4ba6-8f02-e791e782f4c9_900x.png?v=1730355490",
+            "linkUrl": "https://trakracer.eu/products/budget-cockpit-mounted-single-monitor-stand-580mm-22-8-wide?variant=47442316427609"
+        },
+        {
+            "name": "MOZA HGP SHIFTER",
+            "price": 159.0,
+            "exclusive": "NON",
+            "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/MOZA-HGP-Shifter-1-update_773e9d10-bf14-4d07-ac06-3a4e85395ea9.webp?v=1752746586&width=600",
+            "linkUrl": "https://eu.mozaracing.com/products/hgp-shifter?variant=50707893322022"
+        },
+        {
+            "name": "LOGITECH RS SHIFTER/HANDBRAKE",
+            "price": 159.99,
+            "exclusive": "NON",
+            "imageUrl": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/rs-shifter-handbrake/gallery/rs-shifter-handbrake-gallery1.png",
+            "linkUrl": "https://www.logitech.com/fr-fr/shop/p/rs-shifter-handbrake.941-000245"
+        },
+        {
+            "name": "SIMRACING ADDICT DDU 10.5",
+            "price": 192.61,
+            "exclusive": "NON",
+            "imageUrl": "https://www.simracingaddict.co.uk/cdn/shop/files/DDU10.5.png?v=1706262840&width=600",
+            "linkUrl": "https://www.simracingaddict.co.uk/products/ddu-10-5-sim-racing-5-gaming-dash-display?variant=43267193929918"
+        },
+        {
+            "name": "CLUBSPORT HANDBRAKE V2",
+            "price": 199.95,
+            "exclusive": "NON",
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FAdd-ons%2FCS_HB_V2%2FCS_HB_V2-01.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/add-ons/cs_hb_v2/clubsport-handbrake-v2"
+        },
+        {
+            "name": "CLUBSPORT SHIFTER SQ V1.5",
+            "price": 269.95,
+            "exclusive": "NON",
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FAdd-ons%2FCSS_SQ%2FCSS_SQ-01.webp&w=1920&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/add-ons/css_sq/clubsport-shifter-sq-v-1-5"
+        }
+    ]
+}

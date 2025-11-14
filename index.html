@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFT - Config</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>LIFT - Config</h1>
+    </div>
+
+    <div class="main-content">
+        <section id="config-sections">
+        </section>
+
+        <aside id="summary-panel">
+            <h2>Résumé de votre configuration</h2>
+            <div id="selection-details">
+                <p><strong>Bundle :</strong> <span id="summary-bundle">Aucun</span></p>
+                <p><strong>Cockpit :</strong> <span id="summary-cockpit">Aucun</span></p>
+                <p><strong>Siège :</strong> <span id="summary-seat">Aucun</span></p>
+
+                <p><strong>Accessoires :</strong></p>
+                <div id="summary-accessory-container">
+                    <p class="accessory-item-summary">Aucun</p>
+                </div>
+            </div>
+
+            <div class="total-price-box">
+                <p><strong>Total estimé :</strong></p>
+                <p class="total-price" id="total-price">0,00 €</p>
+            </div>
+
+            <button onclick="resetConfiguration()">Réinitialiser</button>
+        </aside>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
