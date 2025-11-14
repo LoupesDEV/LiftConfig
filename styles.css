@@ -1,24 +1,39 @@
 :root {
-    --primary-color: #fd5a5a;
-    --secondary-color: #333;
-    --background-light: #f4f4f9;
-    --background-dark: #222;
+    --primary-color: #B31B1B;
+    --secondary-color: #EAEAEA;
+    --background-dark: #0F0F0F;
+    --background-light: #1A1A1A;
+    --text-muted: #888888;
+    --success-color: #00a676;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+/* ---------------------------------------------------- */
+/* GLOBAL & LAYOUT */
+/* ---------------------------------------------------- */
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--background-light);
+    background-color: var(--background-dark);
     color: var(--secondary-color);
     margin: 0;
     padding: 0;
+    overflow-x: hidden; 
 }
 
 .header {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--background-dark);
     padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--background-dark);
 }
 
 .main-content {
@@ -29,6 +44,9 @@ body {
     padding: 0 20px;
 }
 
+/* ---------------------------------------------------- */
+/* CONFIGURATION SECTIONS */
+/* ---------------------------------------------------- */
 #config-sections {
     flex-grow: 1;
     display: flex;
@@ -50,55 +68,28 @@ body {
 }
 
 .item-card {
-    background-color: white;
-    border: 1px solid #ddd;
+    background-color: var(--background-light); 
+    border: 1px solid #333; 
     border-radius: 8px;
     padding: 15px;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 120px;
-}
-
-.card-link {
-    display: inline-block;
-    
-    background-color: var(--primary-color);
-    color: white !important;
-    text-decoration: none;
-    font-size: 0.8em;
-    font-weight: 600;
-    
-    padding: 6px 10px;
-    margin-top: 10px;
-    border-radius: 4px;
-    
-    transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.card-link:hover {
-    background-color: #ff3333;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.card-link:active {
-    background-color: #cc0000;
-    transform: translateY(0);
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
 }
 
 .item-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border-color: var(--primary-color);
 }
 
 .item-card.selected {
     border: 3px solid var(--primary-color);
-    box-shadow: 0 0 15px rgba(229, 0, 0, 0.5);
-    background-color: #fff0f0;
+    box-shadow: 0 0 8px rgba(179, 27, 27, 0.6); 
+    background-color: #252525;
 }
 
 .card-name {
@@ -112,73 +103,6 @@ body {
     font-size: 1.3em;
     margin-top: 10px;
     font-weight: 700;
-}
-
-#summary-panel {
-    width: 300px;
-    min-width: 300px;
-    background-color: var(--background-dark);
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    height: fit-content;
-    position: sticky; 
-    top: 20px;
-}
-
-#selection-details p {
-    margin: 10px 0;
-    padding-bottom: 5px;
-    border-bottom: 1px dotted #555;
-}
-
-#selection-details strong {
-    color: var(--primary-color);
-}
-
-#summary-accessory-container {
-    margin-left: 15px;
-}
-
-.accessory-item-summary {
-    font-size: 0.9em;
-    font-style: italic;
-    margin: 5px 0;
-    padding: 0;
-    border: none !important;
-}
-
-
-.total-price-box {
-    margin-top: 20px;
-    padding-top: 15px;
-    border-top: 2px solid #555;
-    text-align: right;
-}
-
-.total-price {
-    font-size: 2em;
-    font-weight: bold;
-    color: #00ff73;
-}
-
-#summary-panel button {
-    width: 100%;
-    padding: 10px;
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.1em;
-    margin-top: 15px;
-}
-
-.item-card {
-    flex-direction: row; 
-    align-items: center;
-    gap: 15px;
 }
 
 .card-image-container {
@@ -197,4 +121,126 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain; 
+}
+
+/* ---------------------------------------------------- */
+/* SUMMARY PANEL (ASIDE) - STICKY FOR DESKTOP */
+/* ---------------------------------------------------- */
+#summary-panel {
+    position: sticky; 
+    top: 20px; 
+    width: 300px;
+    min-width: 300px;
+    background-color: var(--background-light); 
+    color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: fit-content; 
+    border: 1px solid #333;
+}
+
+#selection-details p {
+    margin: 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #444; 
+}
+
+#selection-details strong {
+    color: var(--primary-color);
+}
+
+.accessory-item-summary {
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 5px 0;
+    padding: 0;
+    border: none !important;
+    color: var(--text-muted); 
+}
+
+.total-price-box {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 2px solid #333;
+    text-align: right;
+}
+
+.total-price {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--success-color); 
+}
+
+#summary-panel button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 15px;
+    transition: background-color 0.2s;
+}
+
+#summary-panel button:hover {
+    background-color: #e33030; 
+}
+
+.card-link {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white !important;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 6px 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-link:hover {
+    background-color: #e33030; 
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-link:active {
+    background-color: #991616;
+    transform: translateY(0);
+}
+
+/* ---------------------------------------------------- */
+/* RESPONSIVE DESIGN  */
+/* ---------------------------------------------------- */
+
+@media (max-width: 900px) {
+    .main-content {
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    #summary-panel {
+        position: static; 
+        order: -1; 
+        width: 100%; 
+        min-width: 100%;
+        margin: 0 10px; 
+        padding: 15px;
+    }
+    
+    #config-sections {
+        padding: 0 10px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+        gap: 15px;
+    }
 }
