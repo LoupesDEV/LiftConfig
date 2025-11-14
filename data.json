@@ -2,7 +2,7 @@
     "BUNDLES": [
         {
             "name": "MOZA R3",
-            "price": 329.0,
+            "price": 299.0,
             "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/3.R3pc_4161db8e-0da5-406d-8cd1-af0227d22c1b.webp?v=1752808529&width=600",
             "linkUrl": "https://eu.mozaracing.com/products/r3-racing-bundle-pc"
         },
@@ -20,7 +20,7 @@
         },
         {
             "name": "MOZA R5",
-            "price": 479.0,
+            "price": 439.0,
             "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/R5_a8139d29-a749-48e8-bb36-cc5f58e74b62.png?v=1752746509&width=1000",
             "linkUrl": "https://eu.mozaracing.com/products/r5-racing-bundle"
         },
@@ -225,7 +225,7 @@
         },
         {
             "name": "MOZA SR-P CLUTCH PEDAL",
-            "price": 45.9,
+            "price": 43.9,
             "exclusive": "OUI",
             "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/SR-P_Lite_Clutch_Pedal.webp?v=1751281057&width=600",
             "linkUrl": "https://eu.mozaracing.com/products/srp-lite-clutch?variant=50707892470054"
