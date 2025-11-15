@@ -1,13 +1,13 @@
 
 <div align="center">
-   <img src="https://m3-markdown-badges.vercel.app/stars/9/3/LoupesDEV/LiftConfig">
+   <img src="https://m3-markdown-badges.vercel.app/stars/9/3/LoupesDEV/LiftIt">
    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/HTML/html3.svg">
    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSS/css3.svg">
    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Javascript/javascript3.svg">
    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/JSON/json3.svg">
 </div>
 
-# LIFT - Config
+# LiftIt
 
 Application web légère pour configurer et estimer une configuration simracing (bundles, cockpits, sièges et accessoires).
 
@@ -22,7 +22,7 @@ Application web légère pour configurer et estimer une configuration simracing 
 
 ## Présentation
 
-LIFT - Config est une interface client simple pour construire une configuration simracing en sélectionnant un bundle, un cockpit, un siège et des accessoires. L'application calcule le total estimé, conserve la sélection dans le navigateur (LocalStorage) et propose un résumé clair.
+LiftIt est une interface client simple pour construire une configuration simracing en sélectionnant un bundle, un cockpit, un siège et des accessoires. L'application calcule le total estimé, conserve la sélection dans le navigateur (LocalStorage) et propose un résumé clair.
 
 L'interface est conçue pour être utilisée directement dans le navigateur sans backend nécessaire.
 
@@ -31,7 +31,7 @@ L'interface est conçue pour être utilisée directement dans le navigateur sans
 1. Cloner le dépôt :
 
 ```bash
-git clone https://github.com/LoupesDEV/LiftConfig.git
+git clone https://github.com/LoupesDEV/LiftIt.git
 ```
 
 2. Ouvrir l'application :
@@ -58,17 +58,30 @@ python -m http.server 8000
 
 ## Démonstration locale
 
-Après avoir lancé un serveur local, ouvrez `index.html` dans votre navigateur (par exemple `http://localhost:8000`). L'interface charge `data.json` pour peupler les cartes. Si le fichier `data.json` est absent ou mal formé, un message d'erreur s'affichera.
+Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/LiftIt).
+
+<div align="center">
+    <table>
+        <tr>
+            <td><img src="assets/accueil.png" alt="Page d'accueil"/></td>
+            <td><img src="assets/selection.png" alt="Page de lecture"/></td>
+        </tr>
+    </table>
+</div>
 
 ## Structure du projet
 
 ```
-LiftConfig/
-├── index.html          # Page principale
-├── data.json           # Données des bundles, cockpits, sièges, accessoires
-├── script.js           # Logique de rendu, sélection et sauvegarde
-├── styles.css          # Styles de l'interface
-└── README.md           # Documentation (ce fichier)
+LiftIt
+├─ assets/                # Dossier contenant les médias
+├─ CODE_OF_CONDUCT.md     # Code de conduite pour les contributeurs
+├─ CONTRIBUTING.md        # Guide de contribution
+├─ data.json              # Données des équipements
+├─ index.html             # Page principale l'application
+├─ LICENSE                # Fichier de licence
+├─ README.md              # Documentation du projet
+├─ script.js              # Fichier de script
+└─ styles.css             # Fichier de styles
 ```
 
 # Contributeurs
