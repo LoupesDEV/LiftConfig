@@ -606,6 +606,30 @@
             "price": 67.15,
             "imageUrl": "https://trakracer.eu/cdn/shop/products/47.1_Shopify_fd9327d2-25ba-4726-a2ab-f39b385ff929_540x.png?v=1700838889",
             "linkUrl": "https://trakracer.eu/collections/hardware-mounts-custom/products/universal-pc-or-control-box-shelf-for-aluminium-sim-rigs"
+        },
+        {
+            "name": "TRAKRACER LARGE COCKPIT-MOUNTED SINGLE MONITOR STAND",
+            "price": 169.15,
+            "imageUrl": "https://trakracer.eu/cdn/shop/files/MS-CM-SIN2_02-min_900x.png?v=1755818331",
+            "linkUrl": "https://trakracer.eu/products/1200mm-long-cockpit-mounted-single-monitor-stand-1?variant=41410268790978"
+        },
+        {
+            "name": "TRAKRACER LARGE COCKPIT-MOUNTED DUAL MONITOR STAND",
+            "price": 254.15,
+            "imageUrl": "https://trakracer.eu/cdn/shop/files/MS-CM-DL2_01_540x.png?v=1755817803",
+            "linkUrl": "https://trakracer.eu/products/cockpit-mounted-dual-monitor-stand-up-to-80-displays?variant=42395464007874"
+        },
+        {
+            "name": "TRAKRACER LARGE FREESTANDING SINGLE MONITOR STAND",
+            "price": 194.65,
+            "imageUrl": "https://trakracer.eu/cdn/shop/files/MS-FS-SIN6_02-min_540x.png?v=1732861083",
+            "linkUrl": "https://trakracer.eu/products/alum-floor-single-monitor-stand-vesa-mount-1?variant=41410272493762"
+        },
+        {
+            "name": "TRAKRACER SIM FLOOR",
+            "price": 50.15,
+            "imageUrl": "https://trakracer.eu/cdn/shop/files/TR80-FSUPPORT3.2173_540x.png?v=1720138063",
+            "linkUrl": "https://trakracer.eu/products/sim-floor?variant=48507946860889"
         }
     ]
 }
