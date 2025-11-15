@@ -18,7 +18,7 @@ const categoryMap = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("Script version 5.2 (LocalStorage) loaded.");
+    console.log("Script version 6.0 loaded.");
 
     const dataFile = 'data.json';
 
@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(jsonData => {
             allData = jsonData;
+
+            sortDataByPrice(allData);
 
             loadConfig();
 
@@ -45,6 +47,26 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+function sortDataByPrice(data) {
+    Object.keys(data).forEach(categoryKey => {
+        const categoryData = data[categoryKey];
+        if (categoryData && categoryData.length > 0) {
+            
+            const sortByTotal = categoryKey && categoryData[0].total !== undefined;
+
+            categoryData.sort((a, b) => {
+                const priceA = sortByTotal ? a.total : a.price;
+                const priceB = sortByTotal ? b.total : b.price;
+
+                const numA = parseFloat(priceA) || 0;
+                const numB = parseFloat(priceB) || 0;
+
+                return numA - numB;
+            });
+        }
+    });
+}
+
 function saveConfig() {
     try {
         const serializedConfig = JSON.stringify(currentConfig);
@@ -53,7 +75,6 @@ function saveConfig() {
         console.warn("Error saving to LocalStorage", e);
     }
 }
-
 
 function loadConfig() {
     try {
@@ -134,7 +155,6 @@ function renderConfiguration() {
     });
 }
 
-
 function checkIsSelected(categorySingular, itemName) {
     if (categorySingular === 'accessory') {
         return currentConfig.accessory.some(item => item.name === itemName);
@@ -167,7 +187,7 @@ function handleCardSelection(event) {
         container.querySelectorAll('.item-card').forEach(c => c.classList.remove('selected'));
 
         if (isSelected) {
-            currentConfig[categorySingular] = { name: 'Aucun', price: 0 };
+            currentConfig[categorySingular] = { name: 'None', price: 0 };
         } else {
             card.classList.add('selected');
             currentConfig[categorySingular] = { name, price };
@@ -176,7 +196,6 @@ function handleCardSelection(event) {
 
     updateSummary();
 }
-
 
 function updateSummary() {
     let totalPrice = 0;
