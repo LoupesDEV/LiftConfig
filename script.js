@@ -1,4 +1,3 @@
-
 const STORAGE_KEY = 'simracingConfig';
 
 let currentConfig = {
@@ -18,7 +17,7 @@ const categoryMap = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("Script version 6.0 loaded.");
+    console.log("Script version 6.1 loaded.");
 
     const dataFile = 'data.json';
 
@@ -95,6 +94,50 @@ function loadConfig() {
 }
 
 
+function getSelectedCockpitData() {
+    const cockpitName = currentConfig.cockpit.name;
+    if (cockpitName === 'None' || !allData.COCKPITS) {
+        return null;
+    }
+    return allData.COCKPITS.find(item => item.name === cockpitName) || null;
+}
+
+
+function resetSeatIfIncluded(selectedCockpitHasSeat) {
+    if (selectedCockpitHasSeat && currentConfig.seat.name !== 'None') {
+        document.querySelectorAll('#cards-sieges .item-card.selected').forEach(card => {
+            card.classList.remove('selected');
+        });
+        
+        currentConfig.seat = { name: 'None', price: 0 };
+    }
+}
+
+function updateSeatSectionState() {
+    const cockpitData = getSelectedCockpitData();
+    const seatsEnabled = !cockpitData || !cockpitData.wSeat;
+    
+    document.querySelectorAll('#cards-sieges .item-card').forEach(card => {
+        if (seatsEnabled) {
+            card.classList.remove('disabled');
+        } else {
+            card.classList.add('disabled');
+        }
+    });
+
+    const seatTitle = document.querySelector('.category-title[data-category="SIEGES"]');
+    if (seatTitle) {
+        if (!seatsEnabled) {
+            seatTitle.textContent = 'Seats (Included with Cockpit)';
+            seatTitle.style.opacity = '0.5';
+        } else {
+            seatTitle.textContent = 'Seats';
+            seatTitle.style.opacity = '1';
+        }
+    }
+}
+
+
 function renderConfiguration() {
     const configSections = document.getElementById('config-sections');
     configSections.innerHTML = '';
@@ -115,7 +158,7 @@ function renderConfiguration() {
 
         const section = document.createElement('div');
         section.innerHTML = `
-            <h2 class="category-title">${categoryNames[categoryKey]}</h2>
+            <h2 class="category-title" data-category="${categoryKey}">${categoryNames[categoryKey]}</h2>
             <div id="cards-${categoryPlural}" class="card-container">
             </div>
         `;
@@ -130,6 +173,10 @@ function renderConfiguration() {
             card.dataset.category = categoryPlural;
             card.dataset.name = item.name;
             card.dataset.price = item.price.toString();
+            
+            if (categoryKey === 'COCKPITS' && item.wSeat !== undefined) {
+                card.dataset.wseat = item.wSeat.toString();
+            }
 
             const isSelected = checkIsSelected(categorySingular, item.name);
             if (isSelected) {
@@ -153,6 +200,8 @@ function renderConfiguration() {
             cardContainer.appendChild(card);
         });
     });
+    
+    updateSeatSectionState();
 }
 
 function checkIsSelected(categorySingular, itemName) {
@@ -172,6 +221,18 @@ function handleCardSelection(event) {
 
     const isAccessory = categoryPlural === 'accessoires';
     const isSelected = card.classList.contains('selected');
+    
+    if (categorySingular === 'seat') {
+        const cockpitData = getSelectedCockpitData();
+        if (cockpitData && cockpitData.wSeat) {
+            console.warn(`Cannot select a seat. The selected cockpit, '${cockpitData.name}', already includes a seat (wSeat: true).`);
+            return;
+        }
+    }
+    
+    if (card.classList.contains('disabled')) {
+        return;
+    }
 
     if (isAccessory) {
         if (isSelected) {
@@ -186,11 +247,24 @@ function handleCardSelection(event) {
 
         container.querySelectorAll('.item-card').forEach(c => c.classList.remove('selected'));
 
-        if (isSelected) {
-            currentConfig[categorySingular] = { name: 'None', price: 0 };
-        } else {
+        let selectedItemData = { name: 'None', price: 0 };
+        let newCockpitHasSeat = false;
+
+        if (!isSelected) {
             card.classList.add('selected');
-            currentConfig[categorySingular] = { name, price };
+            selectedItemData = { name, price };
+            
+            if (categorySingular === 'cockpit') {
+                const selectedCockpitFullData = allData.COCKPITS.find(item => item.name === name);
+                newCockpitHasSeat = selectedCockpitFullData && selectedCockpitFullData.wSeat;
+            }
+        }
+        
+        currentConfig[categorySingular] = selectedItemData;
+
+        if (categorySingular === 'cockpit') {
+            resetSeatIfIncluded(newCockpitHasSeat);
+            updateSeatSectionState();
         }
     }
 
@@ -252,6 +326,8 @@ window.resetConfiguration = function () {
     });
 
     localStorage.removeItem(STORAGE_KEY);
+    
+    updateSeatSectionState();
 
     updateSummary();
 }

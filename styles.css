@@ -92,6 +92,15 @@ h1 {
     background-color: #252525;
 }
 
+.item-card.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+    border-color: #333;
+    box-shadow: none;
+    transform: none;
+}
+
 .card-name {
     font-size: 1.1em;
     font-weight: bold;

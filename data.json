@@ -460,175 +460,150 @@
         {
             "name": "SWITCH USB HUB 7 PORTS USB 3",
             "price": 14.99,
-            "exclusive": false,
             "imageUrl": "https://m.media-amazon.com/images/I/61ECAu3h5SL._AC_SX679_.jpg",
             "linkUrl": "https://amzn.eu/d/aGGftHE"
         },
         {
             "name": "SIMSHIELD WHEEL COVER (ROUND)",
             "price": 23.95,
-            "exclusive": false,
             "imageUrl": "https://www.sim-shield.com/cdn/shop/files/1_8e27ac4d-f62a-4120-a21b-cfa576818b7e.png?v=1743732654&width=600",
             "linkUrl": "https://www.sim-shield.com/products/simshield-v2-round-edition"
         },
         {
             "name": "SIMSHIELD WHEEL COVER (RECTANGLE)",
             "price": 23.95,
-            "exclusive": false,
             "imageUrl": "https://www.sim-shield.com/cdn/shop/files/1_b39eb2d3-1c2a-4272-85d7-12ea1c911623.png?v=1743731405&width=600",
             "linkUrl": "https://www.sim-shield.com/products/simshield-formula"
         },
         {
             "name": "SR-P LITE BRAKE PERFORMANCE",
             "price": 35.0,
-            "exclusive": true,
             "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/SR-P-Lite-Brake-Pedal-Performance-Kit-3-png-update_5339feb7-3277-4c2b-95a4-86b75b1f90d6.webp?v=1752746506&width=600",
             "linkUrl": "https://eu.mozaracing.com/products/srp-lite-kit"
         },
         {
             "name": "SPARCO K-ATTACK GLOVES",
             "price": 39.0,
-            "exclusive": false,
             "imageUrl": "https://www.sparco-official.com/media/catalog/product/b/k/bkg0004b0_k10_01_1_8.jpg?auto=webp&format=pjpg&width=640&fit=cover?auto=webp&format=pjpg&width=1600&height=2000&fit=cover",
             "linkUrl": "https://www.sparco-official.com/fr/k-attack.html"
         },
         {
             "name": "TRAKRACER SIMRIG FLOOR MAT",
             "price": 41.65,
-            "exclusive": false,
             "imageUrl": "https://trakracer.eu/cdn/shop/products/03_75117847-ca8f-410d-8a21-c084f10b37e5_900x.png?v=1644889674",
             "linkUrl": "https://trakracer.eu/products/premium-neoprene-sim-rig-floor-mat?variant=41410385739970"
         },
         {
             "name": "TRAKRACER SEAT HARNESS",
             "price": 41.65,
-            "exclusive": true,
             "imageUrl": "https://trakracer.eu/cdn/shop/products/TR-SBELT-B_2__shopify_720x.png?v=1640239463",
             "linkUrl": "https://trakracer.eu/collections/seats-seat-add-ons/products/trak-racer-seat-harness?variant=41410392359106"
         },
         {
             "name": "MOZA SR-P CLUTCH PEDAL",
             "price": 43.9,
-            "exclusive": true,
             "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/SR-P_Lite_Clutch_Pedal.webp?v=1751281057&width=600",
             "linkUrl": "https://eu.mozaracing.com/products/srp-lite-clutch?variant=50707892470054"
         },
         {
             "name": "TRAKRACER KEYBOARD MOUSE V2 TRAY",
             "price": 58.65,
-            "exclusive": true,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/TR80-KBMMS_02-min_3f04b862-1c54-47e2-9b17-cff353d3cdf7_900x.png?v=1750382258",
             "linkUrl": "https://trakracer.eu/products/aluminium-profile-adjustable-keyboard-tray-upgrade-kit-1?variant=41410499281090"
         },
         {
             "name": "FANATEC CLUTCH PEDAL",
             "price": 59.95,
-            "exclusive": true,
             "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FAccessories%2FPedal-Accessories%2FCSL_P_CK%2FCSL_P_CK-01.webp&w=1920&q=85",
             "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-accessories/csl_p_ck/csl-pedal-clutch-kit"
         },
         {
             "name": "BaotyJie SHIFTER",
             "price": 60.59,
-            "exclusive": false,
             "imageUrl": "https://m.media-amazon.com/images/I/51wHNQA1YIL._AC_SX679_.jpg",
             "linkUrl": "https://amzn.eu/d/2ZA41ox"
         },
         {
             "name": "Easyhomie HANDBRAKE",
             "price": 69.99,
-            "exclusive": false,
             "imageUrl": "https://m.media-amazon.com/images/I/61SD1rG-M-L._AC_SX522_.jpg",
             "linkUrl": "https://amzn.eu/d/blouI3H"
         },
         {
             "name": "TRAKRACER TR GEN 2 SHIFTER MOUNT",
             "price": 72.25,
-            "exclusive": true,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/noshifter_black_900x.png?v=1704214153",
             "linkUrl": "https://trakracer.eu/products/tr-gen-2-shifter-mount-and-side-chassis-support-with-support-plate-for-tr120s?variant=47624824095065"
         },
         {
             "name": "FANATEC LOAD CELL KIT",
             "price": 79.95,
-            "exclusive": true,
             "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FAccessories%2FPedal-Accessories%2FCSL_P_LCK%2FCSL_P_LCK-01.webp&w=1920&q=85",
             "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-accessories/csl_p_lck/csl-pedals-load-cell-kit"
         },
         {
             "name": "TRAKRACER TOP MONITOR MOUNT",
             "price": 84.15,
-            "exclusive": true,
             "imageUrl": "https://trakracer.eu/cdn/shop/products/TR80-4M4-BLK.1.1_ce6c948a-1929-4452-8a65-eee7e4560aa4_900x.png?v=1700822836",
             "linkUrl": "https://trakracer.eu/products/aluminium-quad-dual-overhead-monitor-stand-up-to-36-display?variant=41645424672962"
         },
         {
             "name": "FANATEC BOOST KIT 180 (8Nm)",
             "price": 99.95,
-            "exclusive": true,
             "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FAccessories%2FWheel-Base-Accessories%2FBK180_NA%2Fbk180_us-02.webp&w=1920&q=85",
             "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-accessories/bk180_eu/boost-kit-180-8nm-eu"
         },
         {
             "name": "SHH SHIFTER THORN",
             "price": 109.0,
-            "exclusive": false,
             "imageUrl": "https://www.shiftershh.com/47-large_default/shh-shifter-thorn.jpg",
             "linkUrl": "https://www.shiftershh.com/fr/accueil/1-4-shh-shifter-thorn.html#/1-couleur-noir/5-ancrage-cockpits_standard/9-grille-7r_tipo_2"
         },
         {
             "name": "MOZA HPB HANDBRAKE",
             "price": 109.0,
-            "exclusive": false,
             "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/MOZA-HBP-Handbrake-1.webp?v=1751281058&width=600",
             "linkUrl": "https://eu.mozaracing.com/products/hbp-handbrake?variant=50707893027110"
         },
         {
             "name": "TRAKRACER SINGLE MONITOR STAND",
             "price": 109.65,
-            "exclusive": true,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/MS-CM-SML2_e9927cf5-8256-4ba6-8f02-e791e782f4c9_900x.png?v=1730355490",
             "linkUrl": "https://trakracer.eu/products/budget-cockpit-mounted-single-monitor-stand-580mm-22-8-wide?variant=47442316427609"
         },
         {
             "name": "MOZA HGP SHIFTER",
             "price": 159.0,
-            "exclusive": false,
             "imageUrl": "https://eu.mozaracing.com/cdn/shop/files/MOZA-HGP-Shifter-1-update_773e9d10-bf14-4d07-ac06-3a4e85395ea9.webp?v=1752746586&width=600",
             "linkUrl": "https://eu.mozaracing.com/products/hgp-shifter?variant=50707893322022"
         },
         {
             "name": "LOGITECH RS SHIFTER/HANDBRAKE",
             "price": 159.99,
-            "exclusive": false,
             "imageUrl": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/rs-shifter-handbrake/gallery/rs-shifter-handbrake-gallery1.png",
             "linkUrl": "https://www.logitech.com/fr-fr/shop/p/rs-shifter-handbrake.941-000245"
         },
         {
             "name": "SIMRACING ADDICT DDU 10.5",
             "price": 192.61,
-            "exclusive": false,
             "imageUrl": "https://www.simracingaddict.co.uk/cdn/shop/files/DDU10.5.png?v=1706262840&width=600",
             "linkUrl": "https://www.simracingaddict.co.uk/products/ddu-10-5-sim-racing-5-gaming-dash-display?variant=43267193929918"
         },
         {
             "name": "CLUBSPORT HANDBRAKE V2",
             "price": 199.95,
-            "exclusive": false,
             "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FAdd-ons%2FCS_HB_V2%2FCS_HB_V2-01.webp&w=1920&q=85",
             "linkUrl": "https://www.fanatec.com/eu/en/p/add-ons/cs_hb_v2/clubsport-handbrake-v2"
         },
         {
             "name": "CLUBSPORT SHIFTER SQ V1.5",
             "price": 269.95,
-            "exclusive": false,
             "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FAdd-ons%2FCSS_SQ%2FCSS_SQ-01.webp&w=1920&q=85",
             "linkUrl": "https://www.fanatec.com/eu/en/p/add-ons/css_sq/clubsport-shifter-sq-v-1-5"
         },
         {
             "name": "TRAKRACER UNIVERSAL PC OR CONTROL BOX SHELF",
             "price": 67.15,
-            "exclusive": true,
             "imageUrl": "https://trakracer.eu/cdn/shop/products/47.1_Shopify_fd9327d2-25ba-4726-a2ab-f39b385ff929_540x.png?v=1700838889",
             "linkUrl": "https://trakracer.eu/collections/hardware-mounts-custom/products/universal-pc-or-control-box-shelf-for-aluminium-sim-rigs"
         }
