@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -14,28 +14,47 @@
         </section>
 
         <aside id="summary-panel">
-            <h2>Résumé de votre configuration</h2>
+            <h2>Summary</h2>
             <div id="selection-details">
-                <p><strong>Bundle :</strong> <span id="summary-bundle">Aucun</span></p>
-                <p><strong>Cockpit :</strong> <span id="summary-cockpit">Aucun</span></p>
-                <p><strong>Siège :</strong> <span id="summary-seat">Aucun</span></p>
+                <p><strong>Bundle:</strong> <span id="summary-bundle">None</span></p>
+                <p><strong>Cockpit:</strong> <span id="summary-cockpit">None</span></p>
+                <p><strong>Seat:</strong> <span id="summary-seat">None</span></p>
 
-                <p><strong>Accessoires :</strong></p>
+                <p><strong>Accessories:</strong></p>
                 <div id="summary-accessory-container">
-                    <p class="accessory-item-summary">Aucun</p>
+                    <p class="accessory-item-summary">None</p>
                 </div>
             </div>
 
             <div class="total-price-box">
-                <p><strong>Total estimé :</strong></p>
-                <p class="total-price" id="total-price">0,00 €</p>
+                <p><strong>Estimated total:</strong></p>
+                <p class="total-price" id="total-price">€0.00</p>
             </div>
 
-            <button onclick="resetConfiguration()">Réinitialiser</button>
+            <button onclick="resetConfiguration()">Reset</button>
         </aside>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <h3>LiftIt</h3>
+                <p class="footer-tagline">Configure your simracing setup quickly and easily.</p>
+            </div>
+
+            <nav class="footer-nav" aria-label="Footer">
+                <a href="https://www.cyrex.fr/" class="footer-link">About</a>
+                <a href="mailto:contact@cyrex.fr" class="footer-link">Contact</a>
+                <a href="cgu.html" class="footer-link">Terms</a>
+            </nav>
+
+            <div class="footer-legal">
+                <p class="copyright">&copy; 2025 Cyrex — Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 
