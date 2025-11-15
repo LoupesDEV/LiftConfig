@@ -1,3 +1,8 @@
+<div align="center">
+    <img src="assets/logo.png" width="200">
+</div>
+
+<h1 align="center">LiftIt</h1>
 
 <div align="center">
    <img src="https://m3-markdown-badges.vercel.app/stars/9/3/LoupesDEV/LiftIt">
