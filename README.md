@@ -5,16 +5,13 @@
 <h1 align="center">LiftIt</h1>
 
 <div align="center">
+   <p>Application web légère pour configurer et estimer une configuration simracing (bundles, cockpits, sièges et accessoires).</p>
    <img src="https://m3-markdown-badges.vercel.app/stars/9/3/LoupesDEV/LiftIt">
    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/HTML/html3.svg">
    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSS/css3.svg">
    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Javascript/javascript3.svg">
    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/JSON/json3.svg">
 </div>
-
-# LiftIt
-
-Application web légère pour configurer et estimer une configuration simracing (bundles, cockpits, sièges et accessoires).
 
 ## Table des matières
 
