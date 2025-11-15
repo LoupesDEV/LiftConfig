@@ -11,10 +11,12 @@
 
 <body>
     <div class="main-content">
-        <section id="config-sections">
-        </section>
+        <section id="config-sections"></section>
 
         <aside id="summary-panel">
+            <div id="search-bar-container">
+                <input type="text" id="product-search" placeholder="Search bar..." oninput="filterConfiguration()">
+            </div>
             <h2>Summary</h2>
             <div id="selection-details">
                 <p><strong>Bundle:</strong> <span id="summary-bundle">None</span></p>

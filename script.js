@@ -66,6 +66,44 @@ function sortDataByPrice(data) {
     });
 }
 
+window.filterConfiguration = function () {
+    const searchTerm = document.getElementById('product-search').value.toLowerCase().trim();
+    
+    if (searchTerm === '') {
+        document.querySelectorAll('.item-card').forEach(card => {
+            card.style.display = 'flex';
+        });
+        document.querySelectorAll('.category-title').forEach(title => {
+            title.style.display = 'block';
+        });
+        return;
+    }
+
+    let categoryHasVisibleItems = {};
+
+    document.querySelectorAll('.item-card').forEach(card => {
+        const name = card.dataset.name.toLowerCase();
+        const categoryKey = card.dataset.category.toUpperCase();
+
+        if (name.includes(searchTerm)) {
+            card.style.display = 'flex';
+            categoryHasVisibleItems[categoryKey] = true;
+        } else {
+            card.style.display = 'none';
+        }
+    });
+
+    document.querySelectorAll('.category-title').forEach(title => {
+        const categoryKey = title.dataset.category;
+        
+        if (categoryHasVisibleItems[categoryKey]) {
+            title.style.display = 'block';
+        } else {
+            title.style.display = 'none';
+        }
+    });
+}
+
 function saveConfig() {
     try {
         const serializedConfig = JSON.stringify(currentConfig);

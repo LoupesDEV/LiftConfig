@@ -224,6 +224,40 @@ h1 {
 }
 
 /* ---------------------------------------------------- */
+/* SEARCH BAR */
+/* ---------------------------------------------------- */
+
+#search-bar-container {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--background-light);
+    padding: 15px 20px 15px 20px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#product-search {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #555;
+    border-radius: 6px;
+    background-color: var(--background-light);
+    color: var(--secondary-color);
+    font-size: 1.1em;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#product-search:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(179, 27, 27, 0.5);
+    outline: none;
+}
+
+/* ---------------------------------------------------- */
 /* FOOTER */
 /* ---------------------------------------------------- */
 .site-footer {
@@ -353,5 +387,9 @@ h1 {
     .footer-legal {
         align-items: flex-start;
         text-align: left;
+    }
+
+    #search-bar-container {
+        padding: 15px 10px 15px 10px;
     }
 }
