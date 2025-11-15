@@ -17,7 +17,20 @@ const categoryMap = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("Script version 6.1 loaded.");
+    console.log("Script version 6.2 loaded.");
+
+    const welcomeModal = document.getElementById('welcome-modal');
+    const closeModalBtn = document.getElementById('close-modal-btn');
+    const MODAL_SHOWN_KEY = 'liftitWelcomeShown';
+
+    setTimeout(() => {
+        welcomeModal.classList.add('visible');
+    }, 100);
+
+    closeModalBtn.addEventListener('click', () => {
+        welcomeModal.classList.remove('visible');
+        localStorage.setItem(MODAL_SHOWN_KEY, 'true');
+    });
 
     const dataFile = 'data.json';
 
@@ -50,7 +63,7 @@ function sortDataByPrice(data) {
     Object.keys(data).forEach(categoryKey => {
         const categoryData = data[categoryKey];
         if (categoryData && categoryData.length > 0) {
-            
+
             const sortByTotal = categoryKey && categoryData[0].total !== undefined;
 
             categoryData.sort((a, b) => {
@@ -68,7 +81,7 @@ function sortDataByPrice(data) {
 
 window.filterConfiguration = function () {
     const searchTerm = document.getElementById('product-search').value.toLowerCase().trim();
-    
+
     if (searchTerm === '') {
         document.querySelectorAll('.item-card').forEach(card => {
             card.style.display = 'flex';
@@ -95,7 +108,7 @@ window.filterConfiguration = function () {
 
     document.querySelectorAll('.category-title').forEach(title => {
         const categoryKey = title.dataset.category;
-        
+
         if (categoryHasVisibleItems[categoryKey]) {
             title.style.display = 'block';
         } else {
@@ -146,7 +159,7 @@ function resetSeatIfIncluded(selectedCockpitHasSeat) {
         document.querySelectorAll('#cards-sieges .item-card.selected').forEach(card => {
             card.classList.remove('selected');
         });
-        
+
         currentConfig.seat = { name: 'None', price: 0 };
     }
 }
@@ -154,7 +167,7 @@ function resetSeatIfIncluded(selectedCockpitHasSeat) {
 function updateSeatSectionState() {
     const cockpitData = getSelectedCockpitData();
     const seatsEnabled = !cockpitData || !cockpitData.wSeat;
-    
+
     document.querySelectorAll('#cards-sieges .item-card').forEach(card => {
         if (seatsEnabled) {
             card.classList.remove('disabled');
@@ -211,7 +224,7 @@ function renderConfiguration() {
             card.dataset.category = categoryPlural;
             card.dataset.name = item.name;
             card.dataset.price = item.price.toString();
-            
+
             if (categoryKey === 'COCKPITS' && item.wSeat !== undefined) {
                 card.dataset.wseat = item.wSeat.toString();
             }
@@ -238,7 +251,7 @@ function renderConfiguration() {
             cardContainer.appendChild(card);
         });
     });
-    
+
     updateSeatSectionState();
 }
 
@@ -259,7 +272,7 @@ function handleCardSelection(event) {
 
     const isAccessory = categoryPlural === 'accessoires';
     const isSelected = card.classList.contains('selected');
-    
+
     if (categorySingular === 'seat') {
         const cockpitData = getSelectedCockpitData();
         if (cockpitData && cockpitData.wSeat) {
@@ -267,7 +280,7 @@ function handleCardSelection(event) {
             return;
         }
     }
-    
+
     if (card.classList.contains('disabled')) {
         return;
     }
@@ -291,13 +304,13 @@ function handleCardSelection(event) {
         if (!isSelected) {
             card.classList.add('selected');
             selectedItemData = { name, price };
-            
+
             if (categorySingular === 'cockpit') {
                 const selectedCockpitFullData = allData.COCKPITS.find(item => item.name === name);
                 newCockpitHasSeat = selectedCockpitFullData && selectedCockpitFullData.wSeat;
             }
         }
-        
+
         currentConfig[categorySingular] = selectedItemData;
 
         if (categorySingular === 'cockpit') {
@@ -364,7 +377,7 @@ window.resetConfiguration = function () {
     });
 
     localStorage.removeItem(STORAGE_KEY);
-    
+
     updateSeatSectionState();
 
     updateSummary();

@@ -10,12 +10,33 @@
 </head>
 
 <body>
+    <div id="welcome-modal" class="modal-overlay">
+        <div class="modal-content">
+            <img src="assets/logo.png" alt="LiftIt Logo" class="modal-logo">
+            <h2>Welcome to LiftIt</h2>
+            <p><strong>LiftIt</strong> is a lightweight web application designed to help you quickly build and estimate
+                the cost of your perfect simracing setup (bundles, cockpits, seats, and accessories).</p>
+
+            <div class="disclaimer">
+                <p>⚠️ <strong>Transparency Note:</strong></p>
+                <ul>
+                    <li>We do not use affiliate links.</li>
+                    <li>We do not collect any personal data.</li>
+                    <li>We are not affiliated with any of the brands or manufacturers featured on this site.</li>
+                    <li>Prices generally reflect <strong>European market pricing</strong> (EUR).</li>
+                </ul>
+            </div>
+
+            <button id="close-modal-btn">Start Configuring</button>
+        </div>
+    </div>
+
     <div class="main-content">
         <section id="config-sections"></section>
 
         <aside id="summary-panel">
             <div id="search-bar-container">
-                <input type="text" id="product-search" placeholder="Search bar..." oninput="filterConfiguration()">
+                <input type="text" id="product-search" placeholder="SHIFTER, 8Nm, ..." oninput="filterConfiguration()">
             </div>
             <h2>Summary</h2>
             <div id="selection-details">
