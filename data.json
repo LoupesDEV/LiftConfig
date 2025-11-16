@@ -704,6 +704,12 @@
             "price": 50.15,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/TR80-FSUPPORT3.2173_540x.png?v=1720138063",
             "linkUrl": "https://trakracer.eu/products/sim-floor?variant=48507946860889"
+        },
+        {
+            "name": "iFlag SIMRACING",
+            "price": 40,
+            "imageUrl": "https://nws-racing.com/wp-content/uploads/2024/09/iflag_product.webp",
+            "linkUrl": "https://nws-racing.com/en/boutique/hardware/iflags/iflag/"
         }
     ]
 }
