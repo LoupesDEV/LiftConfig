@@ -123,263 +123,337 @@
     ],
     "COCKPITS": [
         {
-            "name": "OPLITE WHEEL STAND GT PRO",
+            "name": "OPLITE WHEEL STAND GT PRO V2",
             "price": 159.9,
             "wSeat": false,
             "imageUrl": "https://oplitegames.com/wp-content/uploads/OPLITE-Wheel-Stand-GTPro-V2-OP-WS-GTPRO_1-800x800.png",
-            "linkUrl": "https://oplitegames.com/produit/wheel-stand-gt-pro-support-volant-et-pedales/"
+            "linkUrl": "https://oplitegames.com/produit/wheel-stand-gt-pro-support-volant-et-pedales/",
+            "widthCm": 59.8,
+            "lengthCm": 89.5
         },
         {
             "name": "PLAYSEAT EVOLUTION (w/ Seat)",
             "price": 299.0,
             "wSeat": true,
             "imageUrl": "https://playseat.com/media/catalog/product/cache/05ed9395b6f36ffdbd421674feeb3f04/p/l/playseat-evolution-actifit-01.webp",
-            "linkUrl": "https://playseat.com/playseatr-evolution-actifittm"
+            "linkUrl": "https://playseat.com/playseatr-evolution-actifittm",
+            "widthCm": 50,
+            "lengthCm": 130
         },
         {
             "name": "PLAYSEAT EVOLUTION PRO (w/ Seat)",
             "price": 349.0,
             "wSeat": true,
             "imageUrl": "https://playseat.com/media/catalog/product/cache/05ed9395b6f36ffdbd421674feeb3f04/p/l/playseat-evo-pro-actifit-01.webp",
-            "linkUrl": "https://playseat.com/playseatr-evolution-pro-actifittm"
+            "linkUrl": "https://playseat.com/playseatr-evolution-pro-actifittm",
+            "widthCm": 50,
+            "lengthCm": 130
         },
         {
             "name": "OPLITE GT3 SUPERFAST V2 (w/ Seat)",
             "price": 369.9,
             "wSeat": true,
             "imageUrl": "https://oplitegames.com/wp-content/uploads/OP-GT3_1-800x800.png",
-            "linkUrl": "https://oplitegames.com/produit/gt3-cockpit-simracing-cockpit-de-simulation/"
+            "linkUrl": "https://oplitegames.com/produit/gt3-cockpit-simracing-cockpit-de-simulation/",
+            "widthCm": 47,
+            "lengthCm": 56.5
         },
         {
             "name": "FANATEC CSL COCKPIT V1.5",
             "price": 249.95,
             "wSeat": false,
             "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FCockpits%2FCRD-9010009-WW%2FCRD-9010009-WW-01.webp&w=1920&q=85",
-            "linkUrl": "https://www.fanatec.com/eu/en/p/cockpits/crd-9010009-ww/csl-cockpit-v1-5"
+            "linkUrl": "https://www.fanatec.com/eu/en/p/cockpits/crd-9010009-ww/csl-cockpit-v1-5",
+            "widthCm": 66,
+            "lengthCm": 133
         },
         {
             "name": "NLR GTRacer (w/ Seat)",
             "price": 399.0,
             "wSeat": true,
             "imageUrl": "https://nextlevelracing.com/wp-content/uploads/2023/10/gtracer_web_1-1-1060x663.webp",
-            "linkUrl": "https://nextlevelracing.com/products/gtracer/?lang=fr"
+            "linkUrl": "https://nextlevelracing.com/products/gtracer/?lang=fr",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "GTOMEGA ART",
             "price": 147.28,
             "wSeat": false,
             "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/Art_Acc_01.webp?v=1751637062&width=1220",
-            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/art-racing-cockpit?variant=47496627126586"
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/art-racing-cockpit?variant=47496627126586",
+            "widthCm": 69,
+            "lengthCm": 140
         },
         {
             "name": "NLR GTRacer 2.0 (w/ Seat)",
             "price": 449.0,
             "wSeat": true,
             "imageUrl": "https://nextlevelracing.com/wp-content/uploads/2025/01/gtracer_2_web_gallery-1060x795.webp",
-            "linkUrl": "https://nextlevelracing.com/products/gtracer-2/?lang=fr"
+            "linkUrl": "https://nextlevelracing.com/products/gtracer-2/?lang=fr",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "GTOMEGA PRIME Lite-R",
             "price": 214.95,
             "wSeat": false,
             "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/Prime_Lite-R_V2_Cockpit_Cove_Acc_01_7f3e8981-6b3d-4806-a62f-d6b32728a9d9.webp?v=1747399547&width=1220",
-            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/prime-lite-r?variant=49384054587706"
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/prime-lite-r?variant=49384054587706",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "TRAKRACER TR40S RACING SIMULATOR",
             "price": 254.15,
             "wSeat": false,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/TR40S_SS-SM2-04-min_658c3be8-b4e5-415a-bc32-7c42244b13df_720x.png?v=1751969735",
-            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr40s-racing-simulator-1"
+            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr40s-racing-simulator-1",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "OPLITE GTR S8 Infinity (w/ Seat)",
             "price": 499.0,
             "wSeat": true,
             "imageUrl": "https://oplitegames.com/wp-content/uploads/Oplite-Cockpit-GTR-S8-INFINITY-OP-GTR-RC-S8-_1-800x800.jpg",
-            "linkUrl": "https://oplitegames.com/produit/cockpit-gtr-s8-infinity/"
+            "linkUrl": "https://oplitegames.com/produit/cockpit-gtr-s8-infinity/",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "GTOMEGA TITAN",
             "price": 254.95,
             "wSeat": false,
             "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/Titan_Acc_01.webp?v=1751637956&width=1220",
-            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/titan-cockpit"
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/titan-cockpit",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "TRAKRACER TR80S RACING SIMULATOR",
             "price": 381.65,
             "wSeat": false,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/TR80S_sf_f03_900x.webp?v=1754008346",
-            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr80s-racing-simulator-2"
+            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr80s-racing-simulator-2",
+            "widthCm": 75.6,
+            "lengthCm": 204.2
         },
         {
             "name": "OPLITE R8 FURY (w/ Seat)",
             "price": 649.9,
             "wSeat": true,
             "imageUrl": "https://oplitegames.com/wp-content/uploads/COCKPIT-R8-FURY-BLACK-OP-R8-B_01-800x800.png",
-            "linkUrl": "https://oplitegames.com/produit/cockpit-r8-fury-black/"
+            "linkUrl": "https://oplitegames.com/produit/cockpit-r8-fury-black/",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "OPLITE NitroKart (w/ Seat)",
             "price": 199.9,
             "wSeat": true,
             "imageUrl": "https://oplitegames.com/wp-content/uploads/Nitrokart_Family-Pack_OP-NK77-FP_Picture_1-4.jpg",
-            "linkUrl": "https://oplitegames.com/produit/nitrokart-family-pack-nitrokart-family-pack/"
+            "linkUrl": "https://oplitegames.com/produit/nitrokart-family-pack-nitrokart-family-pack/",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "OPLITE GTR S8 Infinity Force (w/ Seat)",
             "price": 549.9,
             "wSeat": true,
             "imageUrl": "https://oplitegames.com/wp-content/uploads/COCKPIT-GTR-S8-INFINITY-FORCE-OP-GTR-S8FF-_1-800x800.jpg",
-            "linkUrl": "https://oplitegames.com/produit/cockpit-gtr-s8-infinity-force/"
+            "linkUrl": "https://oplitegames.com/produit/cockpit-gtr-s8-infinity-force/",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "OPLITE GTR S8 Elite (w/ Seat)",
             "price": 569.9,
             "wSeat": true,
             "imageUrl": "https://oplitegames.com/wp-content/uploads/Cockpit-GTR-S8-Elite-RED-OP-GTR-ER-image_1-800x800.png",
-            "linkUrl": "https://oplitegames.com/produit/oplite-gtr-s3-elite-red-oplite-gtr-s3-elite-red/"
+            "linkUrl": "https://oplitegames.com/produit/oplite-gtr-s3-elite-red-oplite-gtr-s3-elite-red/",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "OPLITE GTR S8 Elite Force (w/ Seat)",
             "price": 599.9,
             "wSeat": true,
             "imageUrl": "https://oplitegames.com/wp-content/uploads/OP-GTR-EFY_1-1-800x800.png",
-            "linkUrl": "https://oplitegames.com/produit/cockpit-gtr-s8-elite-force-yellow/"
+            "linkUrl": "https://oplitegames.com/produit/cockpit-gtr-s8-elite-force-yellow/",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "PLAYSEAT CHALLENGE (w/ Seat)",
             "price": 229,
             "wSeat": true,
             "imageUrl": "https://playseat.com/media/catalog/product/cache/05ed9395b6f36ffdbd421674feeb3f04/p/l/playseat-challenge-actifit-01.webp",
-            "linkUrl": "https://playseat.com/playseatr-challenge-actifittm"
+            "linkUrl": "https://playseat.com/playseatr-challenge-actifittm",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "PLAYSEAT CHALLENGE X (w/ Seat)",
             "price": 299,
             "wSeat": true,
             "imageUrl": "https://playseat.com/media/catalog/product/cache/05ed9395b6f36ffdbd421674feeb3f04/p/l/playseat-challenge-x-actifit-01.webp",
-            "linkUrl": "https://playseat.com/playseatr-challenge-x-logitech"
+            "linkUrl": "https://playseat.com/playseatr-challenge-x-logitech",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "PLAYSEAT TROPHY (w/ Seat)",
             "price": 599,
             "wSeat": true,
             "imageUrl": "https://playseat.com/media/catalog/product/cache/05ed9395b6f36ffdbd421674feeb3f04/p/l/playseat-trophy-black-01_1.webp",
-            "linkUrl": "https://playseat.com/playseatr-trophy-black"
+            "linkUrl": "https://playseat.com/playseatr-trophy-black",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "PLAYSEAT FORMULA INSTINCT (w/ Seat)",
             "price": 599,
             "wSeat": true,
             "imageUrl": "https://playseat.com/media/catalog/product/cache/05ed9395b6f36ffdbd421674feeb3f04/p/l/playseat_formula_instinct_f1_slider_001_1.webp",
-            "linkUrl": "https://playseat.com/playseatr-formula-instinct-f1"
+            "linkUrl": "https://playseat.com/playseatr-formula-instinct-f1",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "PLAYSEAT FORMULA (w/ Seat)",
             "price": 999,
             "wSeat": true,
             "imageUrl": "https://playseat.com/media/catalog/product/cache/05ed9395b6f36ffdbd421674feeb3f04/p/l/playseat-f1-black-01.webp",
-            "linkUrl": "https://playseat.com/playseatr-formula-black"
+            "linkUrl": "https://playseat.com/playseatr-formula-black",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "PLAYSEAT SENSATION PRO (w/ Seat)",
             "price": 1199,
             "wSeat": true,
             "imageUrl": "https://playseat.com/media/catalog/product/cache/05ed9395b6f36ffdbd421674feeb3f04/p/l/playseat-sensation-actifit-01.webp",
-            "linkUrl": "https://playseat.com/playseatr-sensation-pro-actifittm"
+            "linkUrl": "https://playseat.com/playseatr-sensation-pro-actifittm",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "PLAYSEAT FORMULA INTELLIGENCE (w/ Seat)",
             "price": 2499,
             "wSeat": true,
             "imageUrl": "https://playseat.com/media/catalog/product/cache/05ed9395b6f36ffdbd421674feeb3f04/p/l/playseat_formula_intelligence_f1_slider_001.webp",
-            "linkUrl": "https://playseat.com/playseatr-formula-intelligence-black"
+            "linkUrl": "https://playseat.com/playseatr-formula-intelligence-black",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "GTOMEGA PRIME Lite",
             "price": 373.95,
             "wSeat": false,
             "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/Prime_Lite_2025_Lifestyle_01.webp?v=1756297348&width=1220",
-            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/prime-lite-cockpit?variant=47496244035898"
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/prime-lite-cockpit?variant=47496244035898",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "GTOMEGA PRIME",
             "price": 598.57,
             "wSeat": false,
             "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/Prime_2025_Lifestyle_01.webp?v=1759400205&width=1220",
-            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/prime-cockpit?variant=47496408826170"
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/prime-cockpit?variant=47496408826170",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "GTOMEGA HYBRID",
             "price": 517.7,
             "wSeat": false,
             "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/Hybrid_F1_SeatAdjustmentPlate_V2_00.webp?v=1752237097&width=1220",
-            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/hybrid-cockpit?variant=49338719142202"
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/hybrid-cockpit?variant=49338719142202",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "GTOMEGA SPRINT FOLDING (w/ Seat)",
             "price": 205.74,
             "wSeat": true,
             "imageUrl": "https://www.gtomega.co.uk/cdn/shop/files/Sprint_Cockpit_01.webp?v=1747990007&width=1220",
-            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/sprint-folding-cockpit?variant=49381065490746"
+            "linkUrl": "https://www.gtomega.co.uk/en-eu/products/sprint-folding-cockpit?variant=49381065490746",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "TRAKRACER FS3 V2 Wheel Stand",
             "price": 169.15,
             "wSeat": false,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/FS3-03_04-min_540x.png?v=1754006838",
-            "linkUrl": "https://trakracer.eu/collections/simulators/products/fs3-steering-wheel-stand-simulator"
+            "linkUrl": "https://trakracer.eu/collections/simulators/products/fs3-steering-wheel-stand-simulator",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "TRAKRACER RS6 RACING SIMULATOR",
             "price": 424.15,
             "wSeat": false,
             "imageUrl": "https://trakracer.eu/cdn/shop/products/198.02_shopify-min_9aa7cff5-958b-49c8-9b57-b38908a5aea6_540x.png?v=1751422255",
-            "linkUrl": "https://trakracer.eu/collections/simulators/products/rs6-racing-simulator"
+            "linkUrl": "https://trakracer.eu/collections/simulators/products/rs6-racing-simulator",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "TRAKRACER TR120S V2 RACING SIMULATOR",
             "price": 509.15,
             "wSeat": false,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/TR120S-BLKOA-PP-NS_05_540x.png?v=1751591763",
-            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr120s-v2-racing-simulator-1"
+            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr120s-v2-racing-simulator-1",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "TRAKRACER TR160S V2 RACING SIMULATOR",
             "price": 543.15,
             "wSeat": false,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/TR160S2-BLK_05_540x.png?v=1751587509",
-            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr160s-v2-racing-simulator"
+            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr160s-v2-racing-simulator",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "TRAKRACER TR8 PRO RACING SIMULATOR",
             "price": 509.15,
             "wSeat": false,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/TR8ProV2Blacksb01-INCLUDES_900x.webp?v=1758688064",
-            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr8-pro-racing-simulator-1"
+            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr8-pro-racing-simulator-1",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "TRAKRACER TR160 V5 RACING SIMULATOR",
             "price": 594.15,
             "wSeat": false,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/TR1605-BLK_f02-min-INCLUDED_2bdf5c10-9adc-4328-b7a9-8693e0a4b61b_1080x.webp?v=1753922091",
-            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr160-v5"
+            "linkUrl": "https://trakracer.eu/collections/simulators/products/tr160-v5",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "TRAKRACER RACING TRX V2 BLACK",
             "price": 849.15,
             "wSeat": false,
             "imageUrl": "https://trakracer.eu/cdn/shop/files/TRX-V2-Black_Inclusions_540x.webp?v=1756447983",
-            "linkUrl": "https://trakracer.eu/collections/simulators/products/racing-trx-v2-black"
+            "linkUrl": "https://trakracer.eu/collections/simulators/products/racing-trx-v2-black",
+            "widthCm": 0,
+            "lengthCm": 0
         },
         {
             "name": "FANATEC ClubSport GT Cockpit",
             "price": 914.95,
             "wSeat": false,
             "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FCockpits%2FCS_GT_C_BLK%2FCS_GT_C_BLK-01.webp&w=1100&q=85",
-            "linkUrl": "https://www.fanatec.com/eu/en/p/cockpits/cs_gt_c_blk/clubsport-gt-cockpit-black"
+            "linkUrl": "https://www.fanatec.com/eu/en/p/cockpits/cs_gt_c_blk/clubsport-gt-cockpit-black",
+            "widthCm": 77.5,
+            "lengthCm": 167.5
         }
     ],
     "SIEGES": [

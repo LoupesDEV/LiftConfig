@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Planner</title>
+    <link rel="stylesheet" href="assets/css/planner.css">
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+</head>
+
+<body>
+    <div class="main-content">
+        <aside id="menu-gauche" class="control-panel">
+            <h2>Room Dimensions</h2>
+            <div class="input-group">
+                <label for="room-width">Width (cm):</label>
+                <input type="number" id="room-width" value="400" min="100">
+            </div>
+            <div class="input-group">
+                <label for="room-height">Length (cm):</label>
+                <input type="number" id="room-height" value="300" min="100">
+            </div>
+            <button id="set-room-size">Set Room Size</button>
+            <hr>
+
+            <h2>Add a Cockpit</h2>
+            <select id="cockpit-selector" class="selector">
+                <option value="">Select a Cockpit</option>
+            </select>
+            <button id="add-cockpit-btn" disabled>Add Cockpit</button>
+        </aside>
+
+        <main id="planner-area">
+            <canvas id="room-canvas"></canvas>
+
+            <div id="controls-section">
+                <div id="scale-info">Scale: 1 cm = <span id="scale-value">?</span> pixels</div>
+
+                <div id="rotation-control" style="display: none;">
+                    <h3>Rotation of selected object (<span id="selected-object-name"></span>)</h3>
+                    <div class="input-group-vertical">
+                        <label>Angle: <span id="rotation-value">180</span>°</label>
+                        <input type="range" id="rotation-slider" min="0" max="360" value="180" step="1">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside id="menu-droite" class="control-panel">
+            <h2>Add an Object</h2>
+            <div class="input-group">
+                <label for="object-name">Name:</label>
+                <input type="text" id="object-name" value="Desk">
+            </div>
+            <div class="input-group">
+                <label for="object-width">Width (cm):</label>
+                <input type="number" id="object-width" value="150" min="10">
+            </div>
+            <div class="input-group">
+                <label for="object-height">Length (cm):</label>
+                <input type="number" id="object-height" value="70" min="10">
+            </div>
+            <button id="add-object-btn">Add Object</button>
+            <hr>
+
+            <h2>Tools</h2>
+            <button id="delete-object-btn" class="danger-button" disabled>Delete selected object</button>
+            <button id="clear-all-btn" class="danger-button">Clear All</button>
+            <hr>
+
+            <h2>Import/Export</h2>
+            <button id="export-plan-btn">Export (JSON)</button>
+            <label for="import-file" class="button-label">
+                Import (JSON)
+            </label>
+            <input type="file" id="import-file" accept=".json" style="display: none;">
+        </aside>
+    </div>
+
+    <script src="assets/js/planner.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+{
+  "roomDimensionsCm": {
+    "width": 358,
+    "height": 298
+  },
+  "objects": [
+    {
+      "name": "RADIATEUR",
+      "widthCm": 20,
+      "heightCm": 90,
+      "rotation": 0,
+      "x": 950,
+      "y": 260.5,
+      "color": "rgba(100, 100, 100, 0.7)"
+    },
+    {
+      "name": "LIT",
+      "widthCm": 155,
+      "heightCm": 210,
+      "rotation": 0,
+      "x": 0,
+      "y": 245.40782122905034,
+      "color": "rgba(100, 100, 100, 0.7)"
+    },
+    {
+      "name": "Porte",
+      "widthCm": 10,
+      "heightCm": 85,
+      "rotation": 0,
+      "x": 0,
+      "y": 0,
+      "color": "rgba(100, 100, 100, 0.7)"
+    },
+    {
+      "name": "ARMOIRE",
+      "widthCm": 140,
+      "heightCm": 10,
+      "rotation": 0,
+      "x": 0,
+      "y": 0,
+      "color": "rgba(100, 100, 100, 0.7)"
+    },
+    {
+      "name": "ARMOIRE",
+      "widthCm": 125,
+      "heightCm": 65,
+      "rotation": 0,
+      "x": 650.8379888268157,
+      "y": 650.4357541899442,
+      "color": "rgba(100, 100, 100, 0.7)"
+    },
+    {
+      "name": "TRAKRACER TR80S RACING SIMULATOR",
+      "widthCm": 75.6,
+      "heightCm": 204.2,
+      "rotation": 0,
+      "x": 436.7985,
+      "y": 261.6089385474861,
+      "color": "rgba(179, 27, 27, 0.7)"
+    },
+    {
+      "name": "T",
+      "widthCm": 30,
+      "heightCm": 30,
+      "rotation": 0,
+      "x": 651.1005586592179,
+      "y": 563.1005586592179,
+      "color": "rgba(100, 100, 100, 0.7)"
+    },
+    {
+      "name": "M",
+      "widthCm": 30,
+      "heightCm": 40,
+      "rotation": 0,
+      "x": 916.2011173184358,
+      "y": 0,
+      "color": "rgba(100, 100, 100, 0.7)"
+    },
+    {
+      "name": "BUREAU",
+      "widthCm": 140,
+      "heightCm": 75,
+      "rotation": 0,
+      "x": 525.4692737430167,
+      "y": 0,
+      "color": "rgba(100, 100, 100, 0.7)"
+    },
+    {
+      "name": "E",
+      "widthCm": 17,
+      "heightCm": 20,
+      "rotation": 0,
+      "x": 478.25698324022346,
+      "y": 0,
+      "color": "rgba(100, 100, 100, 0.7)"
+    },
+    {
+      "name": "M",
+      "widthCm": 36,
+      "heightCm": 46,
+      "rotation": 0,
+      "x": 378.7206703910615,
+      "y": 0,
+      "color": "rgba(100, 100, 100, 0.7)"
+    },
+    {
+      "name": "M",
+      "widthCm": 30,
+      "heightCm": 38,
+      "rotation": 0,
+      "x": 916.2011173184358,
+      "y": 110.92737430167597,
+      "color": "rgba(100, 100, 100, 0.7)"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img src="assets/logo.png" width="200">
+    <img src="assets/img/logo.png" width="200">
 </div>
 
 <h1 align="center">LiftIt</h1>
@@ -66,12 +66,12 @@ You can try the app [here](https://www.matheo-pichotmoise.fr/LiftIt).
 <div align="center">
     <table>
         <tr>
-            <td><img src="assets/welcome.png" alt="Welcome modal"/></td>
-            <td><img src="assets/home.png" alt="Home page"/></td>
+            <td><img src="assets/img/welcome.png" alt="Welcome modal"/></td>
+            <td><img src="assets/img/home.png" alt="Home page"/></td>
         </tr>
         <tr>
-            <td><img src="assets/search.png" alt="Search example"/></td>
-            <td><img src="assets/config.png" alt="Config summary"/></td>
+            <td><img src="assets/img/search.png" alt="Search example"/></td>
+            <td><img src="assets/img/config.png" alt="Config summary"/></td>
         </tr>
     </table>
 </div>
@@ -80,7 +80,7 @@ You can try the app [here](https://www.matheo-pichotmoise.fr/LiftIt).
 
 ```
 LiftIt
-├─ assets/                # Folder containing media
+├─ assets/img/                # Folder containing media
 ├─ CODE_OF_CONDUCT.md     # Code of conduct for contributors
 ├─ CONTRIBUTING.md        # Contribution guide
 ├─ data.json              # Equipment data
