@@ -100,7 +100,7 @@ Thanks to the people and resources that contributed to the project:
 Want to contribute? Check the [contribution guide](CONTRIBUTING.md) or open an *issue* to propose improvements.
 
 <p align="center">
-    <img alt="Footer" src="https://i.imgur.com/9Ojjug7.png">
+    <img alt="Footer" src="https://i.imgur.com/fnZRNIn.png">
     <br><br>
     <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceGPLv3/licencegplv33.svg">
 </p>
