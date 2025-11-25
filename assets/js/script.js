@@ -1,19 +1,28 @@
 const STORAGE_KEY = 'simracingConfig';
+const BUNDLES_SHOW_KEY = 'liftitShowBundles';
 
 let currentConfig = {
     bundle: { name: 'None', price: 0 },
     cockpit: { name: 'None', price: 0 },
     seat: { name: 'None', price: 0 },
-    accessory: []
+    accessory: [],
+    volant: { name: 'None', price: 0 },
+    pedalier: { name: 'None', price: 0 },
+    base: { name: 'None', price: 0 }
 };
 
 let allData = {};
+
+let showBundles = false;
 
 const categoryMap = {
     'bundles': 'bundle',
     'cockpits': 'cockpit',
     'sieges': 'seat',
-    'accessoires': 'accessory'
+    'accessoires': 'accessory',
+    'volants': 'volant',
+    'pedaliers': 'pedalier',
+    'bases': 'base'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -47,6 +56,16 @@ document.addEventListener('DOMContentLoaded', () => {
             sortDataByPrice(allData);
 
             loadConfig();
+
+            try {
+                showBundles = localStorage.getItem(BUNDLES_SHOW_KEY) === 'true';
+            } catch (e) {
+                showBundles = false;
+            }
+
+            const toggleEl = document.getElementById('toggle-bundles');
+            if (toggleEl) toggleEl.checked = showBundles;
+            if (toggleEl) toggleEl.addEventListener('change', window.toggleBundles);
 
             renderConfiguration();
             updateSummary();
@@ -136,8 +155,8 @@ function loadConfig() {
 
         const loadedConfig = JSON.parse(serializedConfig);
 
-        if (loadedConfig.bundle && loadedConfig.accessory) {
-            currentConfig = loadedConfig;
+        if (loadedConfig && typeof loadedConfig === 'object') {
+            currentConfig = Object.assign({}, currentConfig, loadedConfig);
         }
 
     } catch (e) {
@@ -198,10 +217,14 @@ function renderConfiguration() {
         BUNDLES: 'Bundles',
         COCKPITS: 'Cockpits',
         SIEGES: 'Seats',
-        ACCESSOIRES: 'Accessories'
+        ACCESSOIRES: 'Accessories',
+        VOLANTS: 'Steering Wheels',
+        PEDALIERS: 'Pedals',
+        BASES: 'Bases'
     };
 
     Object.keys(allData).forEach(categoryKey => {
+        if (categoryKey === 'BUNDLES' && !showBundles) return;
         const categoryData = allData[categoryKey];
         if (!categoryData || categoryData.length === 0) return;
 
@@ -278,6 +301,16 @@ function checkIsSelected(categorySingular, itemName) {
     }
 }
 
+
+window.toggleBundles = function (event) {
+    const checked = event && event.target ? event.target.checked : !!event;
+    showBundles = checked;
+    try {
+        localStorage.setItem(BUNDLES_SHOW_KEY, showBundles ? 'true' : 'false');
+    } catch (e) { }
+    renderConfiguration();
+}
+
 function handleCardSelection(event) {
     const card = event.currentTarget;
     const categoryPlural = card.dataset.category;
@@ -340,7 +373,7 @@ function handleCardSelection(event) {
 function updateSummary() {
     let totalPrice = 0;
 
-    ['bundle', 'cockpit', 'seat'].forEach(key => {
+    ['bundle', 'cockpit', 'seat', 'volant', 'pedalier', 'base'].forEach(key => {
         const item = currentConfig[key];
         const summaryElement = document.getElementById(`summary-${key}`);
 
@@ -384,7 +417,10 @@ window.resetConfiguration = function () {
         bundle: { name: 'None', price: 0 },
         cockpit: { name: 'None', price: 0 },
         seat: { name: 'None', price: 0 },
-        accessory: []
+        accessory: [],
+        volant: { name: 'None', price: 0 },
+        pedalier: { name: 'None', price: 0 },
+        base: { name: 'None', price: 0 }
     };
 
     document.querySelectorAll('.item-card.selected').forEach(card => {

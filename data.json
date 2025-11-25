@@ -1,4 +1,124 @@
 {
+    "VOLANTS": [
+        {
+            "name": "FANATEC CSL P1 V2",
+            "price": 139.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FCSL_SW_P1_V2R_QR2L%2FCSL_SW_P1_V2R-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/csl_sw_p1_v2r_qr2l/csl-steering-wheel-p1-v2-qr2-lite"
+        },
+        {
+            "name": "FANATEC CSL BMW",
+            "price": 159.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FCSL_SW_BMW%2FCSL_SW_BMW-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/wheel-bmw-v2-qr-2-lite/csl-steering-wheel-bmw-qr2-lite-wheel-side"
+        },
+        {
+            "name": "FANATEC CSL GT3",
+            "price": 199.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FCRD-9020021-WW%2FCRD-9020021-WW-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/crd-9020021-ww/csl-steering-wheel-gt3"
+        },
+        {
+            "name": "FANATEC CSL WRC",
+            "price": 219.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FCSL_E_SW_WRC_PURE%2FCSL_E_SW_WRC_PURE-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/crd-9020016-ww/csl-elite-steering-wheel-wrc"
+        },
+        {
+            "name": "FANATEC CSL R330 V2",
+            "price": 229.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FSW_CSL_R330_V2%2FSW_CSL_R330_V2-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/sw_csl_r330_v2/csl-steering-wheel-r330-v2"
+        },
+        {
+            "name": "FANATEC CSL SPARCO GT",
+            "price": 229.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FSW_CSL_SP_GT%2FSW_CSL_SP_GT-01B.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/sw_csl_sp_gt/csl-steering-wheel-sparco-gt"
+        },
+        {
+            "name": "FANATEC CSL GT ALCANTARA V2",
+            "price": 229.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FSW_CSL_GTAL_V2%2FSW_CSL_GTAL_V2-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/sw_csl_gtal_v2/csl-steering-wheel-gt-alcantara-v2"
+        },
+        {
+            "name": "FANATEC ClubSport F1 ESPORTS",
+            "price": 239.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FCS_SW_F1_ESPORT_V2%2FCS_SW_F1_ESPORT_V2-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/wheel-cs-f1-esports-v2-qr-2/clubsport-steering-wheel-f1-esports-v2-qr2-wheel-side"
+        },
+        {
+            "name": "FANATEC ClubSport BMW M3 GT2 V2",
+            "price": 319.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FCS_SW_BMW_V2%2Fcs_sw_bmw_v2-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/wheel-cs-bmw-m3-gt2-v2-qr-2/clubsport-steering-wheel-bmw-m3-gt2-v2-qr2-wheel-side"
+        },
+        {
+            "name": "FANATEC ClubSport Formula V2.5",
+            "price": 299.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FCS_SWFORM_V25%2FCS_SWFORM_V25-01A.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/crd-9020012-ww/clubsport-steering-wheel-formula-v2-5"
+        },
+        {
+            "name": "FANATEC ClubSport Formula V2.5 X",
+            "price": 309.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FCS_SWFORM_V25X_M%2FCS_SWFORM_V25X-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/crd-9020013-ww/clubsport-steering-wheel-formula-v2-5x-qr-2"
+        },
+        {
+            "name": "FANATEC CSL ELITE PORSCHE VISION GT",
+            "price": 299.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FSteering-Wheels%2FCSL_E_SW_PVGT%2FCSL_E_SW_PVGT-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/steering-wheels/csl_e_sw_pvgt/csl-elite-steering-wheel-porsche-vision-gt"
+        }
+    ],
+    "PEDALIERS": [
+        {
+            "name": "FANATEC CSL PEDALS",
+            "price": 99.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FPedals%2FCSL_P%2Fcsl_p-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/pedals/csl_p/csl-pedals"
+        },
+        {
+            "name": "FANATEC CSL PEDALS LC",
+            "price": 179.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FPedals%2FCSL_P_LC%2FCSL_P_LC-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/pedals/csl_p_lc/csl_pedals_lc"
+        },
+        {
+            "name": "FANATEC CSL ELITE PEDALS V2",
+            "price": 299.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FPedals%2FCSL_EP_V2%2FCSL_EP_V2-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/pedals/csl_ep_v2/csl-elite-pedals-v2"
+        },
+        {
+            "name": "FANATEC ClubSport PEDALS V3",
+            "price": 329.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FPedals%2FCSP_V3%2FCSP_V3-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/pedals/csp_v3/clubsport-pedals-v3"
+        },
+        {
+            "name": "FANATEC ClubSport PEDALS V3 INVERTED",
+            "price": 429.99,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FPedals%2FCSP_V3i%2FCSP_V3i-01.webp&w=2000&q=85",
+            "linkUrl": "hhttps://www.fanatec.com/eu/en/p/pedals/csp_v3i/clubsport-pedals-v3-inverted"
+        }
+    ],
+    "BASES": [
+        {
+            "name": "FANTAEC CSL DD QR2 (5Nm)",
+            "price": 299.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FWheel-Bases%2FCSL_DD_QR2L_90%2FCSL_DD_QR2L_90-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/wheel-bases/csl_dd_qr2l_90_eu/csl-dd-qr2l-5-nm-eu"
+        },
+        {
+            "name": "FANTAEC CSL DD QR2 (8Nm)",
+            "price": 399.95,
+            "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FWheel-Bases%2FCSL_DD_QR2L_180%2FCSL_DD_QR2L_180-01.webp&w=2000&q=85",
+            "linkUrl": "https://www.fanatec.com/eu/en/p/wheel-bases/csl_dd_qr2l_8nm_eu/csl-dd-qr2-lite-8-nm-eu"
+        }
+    ],
     "BUNDLES": [
         {
             "name": "MOZA R3",
@@ -64,7 +184,7 @@
             "name": "FANATEC CSL DD QR2 Ready2Race Vision GT Bundle (5 Nm)",
             "price": 699.90,
             "imageUrl": "https://www.fanatec.com/_next/image?url=https%3A%2F%2Fassets.fanatec.com%2Fimage%2Fupload%2Fc_fill%2Cq_auto%2Ch_1333%2Cw_2000%2Fproducts%2FBundles%2Fready2race%2FR2R_CSL_DD_QR2_PVGT_5NM%2FR2R_CSL_DD_QR2_PVGT_5NM-01.webp&w=1920&q=85",
-            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_pvgt_5nm_eu/csl-dd-qr2-ready2race-vision-gt-bundle-for-pc-5-nm-eu"            
+            "linkUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_pvgt_5nm_eu/csl-dd-qr2-ready2race-vision-gt-bundle-for-pc-5-nm-eu"
         },
         {
             "name": "FANATEC Gran Turismo® DD Pro (5 Nm)",
@@ -525,7 +645,7 @@
         },
         {
             "name": "TRAKRACER FORMULE/GT HYBRID RACING SIMULATOR",
-            "price": 322.15,
+            "price": 373.15,
             "imageUrl": "https://trakracer.eu/cdn/shop/products/TRX_SEAT.2_d5d5423d-4874-418d-aa68-6cff544e62a6_540x.png?v=1683087604",
             "linkUrl": "https://trakracer.eu/collections/seats-seat-add-ons/products/trx-hybrid-fixed-fiberglass-seat-all-black"
         }
@@ -710,6 +830,24 @@
             "price": 40,
             "imageUrl": "https://nws-racing.com/wp-content/uploads/2024/09/iflag_product.webp",
             "linkUrl": "https://nws-racing.com/en/boutique/hardware/iflags/iflag/"
+        },
+        {
+            "name": "Triple Monitor Add-on Arms",
+            "price": 92.65,
+            "imageUrl": "https://trakracer.eu/cdn/shop/files/TR80-TMARM5_01-min_2_7754080f-fff1-4b50-bfe0-77613e4169d7_1080x.png?v=1741230048",
+            "linkUrl": "https://trakracer.eu/products/aluminium-add-on-arms-for-triple-monitor-stand-with-vesa-mounts?variant=41586970132674"
+        },
+        {
+            "name": "UGREEN CAT 8 ETHERNET CABLE 10M",
+            "price": 22.79,
+            "imageUrl": "https://m.media-amazon.com/images/I/71BTSapMiGL._AC_SY879_.jpg",
+            "linkUrl": "https://amzn.eu/d/fFj0Y5J"
+        },
+        {
+            "name": "JOJOBNJ DISPLAYPORT CABLE 10M",
+            "price": 20.99,
+            "imageUrl": "https://m.media-amazon.com/images/I/71IrzlMj17L._SX522_.jpg",
+            "linkUrl": "https://amzn.eu/d/0snBjAn"
         }
     ]
 }

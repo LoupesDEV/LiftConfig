@@ -7,12 +7,15 @@
     <title>LiftIt</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" type="image/png" href="assets/img/logo.png">
-    
-    <meta name="description" content="LiftIt is a lightweight web application designed to help you quickly build and estimate the cost of your perfect simracing setup (bundles, cockpits, seats, and accessories).">
-    <meta name="keywords" content="simracing, simulator, racing simulator, cockpit, seat, accessories, bundle, configuration, estimate, cost">
+
+    <meta name="description"
+        content="LiftIt is a lightweight web application designed to help you quickly build and estimate the cost of your perfect simracing setup (bundles, cockpits, seats, and accessories).">
+    <meta name="keywords"
+        content="simracing, simulator, racing simulator, cockpit, seat, accessories, bundle, configuration, estimate, cost">
     <meta name="author" content="Cyrex">
     <meta property="og:title" content="LiftIt - Simracing Setup Configurator">
-    <meta property="og:description" content="LiftIt is a lightweight web application designed to help you quickly build and estimate the cost of your perfect simracing setup (bundles, cockpits, seats, and accessories).">
+    <meta property="og:description"
+        content="LiftIt is a lightweight web application designed to help you quickly build and estimate the cost of your perfect simracing setup (bundles, cockpits, seats, and accessories).">
     <meta property="og:image" content="assets/img/logo.png">
     <meta property="og:type" content="website">
 </head>
@@ -24,7 +27,9 @@
             <h2>Welcome to LiftIt</h2>
             <p><strong>LiftIt</strong> is a lightweight web application designed to help you quickly build and estimate
                 the cost of your perfect simracing setup (bundles, cockpits, seats, and accessories).
-                <br><br>You can try our 2D Room planner for free <a href="2dplanner.html" style="text-decoration: underline; color: var(--primary-color);"><strong>HERE</strong></a></p>
+                <br><br>You can try our 2D Room planner for free <a href="2dplanner.html"
+                    style="text-decoration: underline; color: var(--primary-color);"><strong>HERE</strong></a>
+            </p>
 
             <div class="disclaimer">
                 <p>⚠️ <strong>Transparency Note:</strong></p>
@@ -44,6 +49,10 @@
 
         <aside id="summary-panel">
             <div id="search-bar-container">
+                <label for="toggle-bundles" style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+                    <input type="checkbox" id="toggle-bundles" aria-label="Afficher bundles">
+                    <span style="font-size:0.95rem;color:var(--secondary-color);">Afficher les bundles</span>
+                </label>
                 <input type="text" id="product-search" placeholder="SHIFTER, 8Nm, ..." oninput="filterConfiguration()">
             </div>
             <h2>Summary</h2>
@@ -51,6 +60,10 @@
                 <p><strong>Bundle:</strong> <span id="summary-bundle">None</span></p>
                 <p><strong>Cockpit:</strong> <span id="summary-cockpit">None</span></p>
                 <p><strong>Seat:</strong> <span id="summary-seat">None</span></p>
+
+                <p><strong>Wheel:</strong> <span id="summary-volant">None</span></p>
+                <p><strong>Pedals:</strong> <span id="summary-pedalier">None</span></p>
+                <p><strong>Base:</strong> <span id="summary-base">None</span></p>
 
                 <p><strong>Accessories:</strong></p>
                 <div id="summary-accessory-container">
